@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>Portfolio</title>
 </head>
@@ -17,11 +18,11 @@
 <body>
     <!-- header -->
     <header class="header">
-        <div class="container">
+        <div class="container main-nav">
             <nav class="header-nav">
                 <a class="logo" href="#">Web<span class="header-logo">Studio</span></a>
                 <ul class="header-list">
-                    <li class="header-item"><a class="header-link " href="./index.html">Cтудия</a></li>
+                    <li class="header-item"><a class="header-link" href="./index.html">Cтудия</a></li>
                     <li class="header-item"><a class="header-link active" href="./portfolio.html">Портфолио</a></li>
                     <li class="header-item"><a class="header-link" href="">Контакты</a></li>
                 </ul>
@@ -127,20 +128,22 @@
         </section>
     </main>
     <footer class="footer">
-        <a class="logo" href="#">Web<span class="footer-logo">Studio</span></a>
-        <address class="footer-contact">
-            <ul class="footer-list">
-                <li class="footer-item">
-                    <p class="footer-text">г.Киев, пр-т Леси Украинки, 26</p>
-                </li>
-                <li class="footer-item">
-                    <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li class="footer-item">
-                    <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+        <div class="container">
+            <a class="logo footer-logotip" href="#">Web<span class="footer-logo">Studio</span></a>
+            <address class="footer-contact">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <p class="footer-text">г.Киев, пр-т Леси Украинки, 26</p>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+            </div>
     </footer>
 </body>
 
