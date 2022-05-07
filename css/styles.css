@@ -69,6 +69,8 @@ a {
 
 .header {
     border-bottom: 1px solid var(--header-border);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .main-nav {
@@ -76,8 +78,7 @@ a {
     align-items: center;
     justify-content: space-between;
 
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
     
 }
 .header-nav {
@@ -114,23 +115,14 @@ a {
     margin-left: 50px;
 }
 
-.header-link,
-.contact-link {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
 .header-list,
 .header-contact {
     padding: 0;
+    margin: 0;
 
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
-}
-
-.header-link {
-    display: block;
 }
 
 .header-link.active {
@@ -366,7 +358,8 @@ a {
     display: flex;
     justify-content: center;
     padding: 0;
-    margin-bottom: 34px;
+    margin: 0;
+    margin-bottom: 50px;
 }
 
 .control-item {
@@ -451,14 +444,15 @@ a {
     margin-bottom: 0;
 }
 
-
 .content-img {
     display: block;
     max-width: 370px;
     height: auto;
-    margin-bottom: 20px;
 }
 
+.content-wrap {
+    padding: 20px 24px;
+}
 
 .content-title {
     font-family: 'Roboto';
@@ -477,11 +471,5 @@ a {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--text);
-
-    margin-bottom: 20px;
 }
 
-.content-title,
-.content-text {
-    padding-left: 24px;
-}
